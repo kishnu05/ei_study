@@ -24,7 +24,7 @@ file_store = MongoDBAtlasVectorSearch(mongodb_client, database_name, collection_
 storage_context = StorageContext.from_defaults(vector_store=file_store)
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = "Your OpenAI Key"
 
 # Flask app initialization
 app = Flask(__name__)
